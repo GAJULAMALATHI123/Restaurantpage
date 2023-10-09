@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant page</title>
+    <link rel="stylesheet" href="reataurantpage.css">
+</head>
+<body>
+    
+    <div id="contactus">
+        <h1>Contact Us</h1>
+        <form action="#">
+            <div class="form-shape">
+                <label for="query">
+                    Type of Query
+                </label>
+                <select name="myQuery" id="query">
+                    <option value="sel" selected>select</option>
+                    <option value="ord">
+                        order related issues
+                    </option>
+                    <option value="site">
+                        site related query
+                    </option>
+                    <option value="fed">
+                        complaint relate query
+                    </option>
+                    <option value="others">
+                        other query
+                    </option>
+                </select>
+                <div class="form shape">
+                 <label for="name">My name</label>
+                 <input type="name" id="name" name="my name" placeholder="enter ur name">
+                </div>
+                <div class="form shape">
+                    <label for="email">My email</label>
+                    <input type="email" id="myemail" name="email" placeholder="enter email">
+                </div>
+                <div class="form-shape"> 
+                    <label for="phn">phone number</label>
+                    <input type="phn no" id="phn no" name="phn no" placeholder="enter phone number">
+                </div>
+                <div class="radio">
+                    Are u member of an onlineshop
+                    yes <input type="radio" name="eligible">
+                    no <input type="radio" name="eligible">
+                </div>
+                <div class="form shape">
+                    <label for="message">
+                        Elaborate ur query
+                    </label>
+                    <textarea name="message" id="mesg" cols="30" rows="10"> elaborate ur query</textarea>
+                </div>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+
+                
+            </div>
+        </form>
+    </div>
+</body>
+</html>
